@@ -1,0 +1,11 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node.js
+frontend/node_modules/
+
+# Diğer geçici şeyler
+.env
+.DS_Store
