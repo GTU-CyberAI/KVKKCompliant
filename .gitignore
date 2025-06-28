@@ -1,11 +1,19 @@
-# Python
+# Python virtual env’leri
 venv/
-__pycache__/
-*.pyc
+venv,/
+.venv/
+*/venv/
+*/venv,/
+*/.venv/
 
-# Node.js
+
+__pycache__/
+*.py[cod]
+
+############### Node
+node_modules/
 frontend/node_modules/
 
-# Diğer geçici şeyler
+############### Ortam / sistem
 .env
 .DS_Store
