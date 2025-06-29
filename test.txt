@@ -1,0 +1,157 @@
+# Sensitive Data Detection Test Metinleri
+
+Benim adım Ahmet Kara. TC kimlik numaram 41770443550 ve telefonum 0553 987 65 43. 
+E-posta adresim: mehmet.kara1985@gmail.com. 
+Kredi kartı numaram: 3782 822 4631 0005, son kullanma tarihi: 10/27, CVV: 456. 
+Adresim: Bahçelievler Mah. Güneş Sok. No:10 Daire:4, Çankaya/Ankara. 
+Geçmişte panik atak tedavisi gördüm ve halen psikolojik destek alıyorum.
+IBAN: TR48 0011 1000 0000 1234 5678 90.
+
+
+
+## Test Metni 1 - Basit Kişisel Bilgiler
+```
+Merhaba, benim adım Ahmet Yılmaz. TC kimlik numaram 11111111110 ve telefon numaram 05551234567. Email adresim ahmet.yilmaz@gmail.com. Doğum tarihim 15.03.1985.
+```
+
+## Test Metni 2 - Finansal Bilgiler
+```
+Kredi kartı bilgilerim şöyle: 4532015112830366 numaralı Visa kartım var. IBAN numaram TR330006100519786457841326. Ayrıca TC kimlik numaram 55073469324.
+```
+
+## Test Metni 3 - Adres ve Lokasyon Bilgileri
+```
+Ev adresim: Bahçelievler Mahallesi, Atatürk Caddesi No:123 Daire:4, Bakırköy/İstanbul. İş adresim ise Beşiktaş Mah. Güneş Sokak 45/2 Şişli. Telefon: +905551234567.
+```
+
+## Test Metni 4 - Tıbbi Bilgiler
+```
+Hasta: Fatma Özkan, TC: 76558242278. Depresyon tanısı konulmuş. Günde 2 defa prozac kullanıyor. Ayrıca diyabet hastası, insulin tedavisi görüyor. Doktor: Dr. Mehmet Demir, Tel: 0212-555-1234.
+```
+
+## Test Metni 5 - Karmaşık Senaryo (Hepsi Bir Arada)
+```
+HASTA KAYIT FORMU
+
+Hasta Bilgileri:
+Ad Soyad: Zeynep Kaya
+TC Kimlik No: 23456789012
+Doğum Tarihi: 20.08.1990
+Telefon: 0533 456 78 90
+Email: zeynep.kaya@hotmail.com
+
+Adres: Fenerbahçe Mahallesi Bağdat Caddesi No:567 Daire:8 Kadıköy/İstanbul
+
+Finansal Bilgiler:
+Kredi Kartı: 5555555555554444 (MasterCard)
+IBAN: TR64 0004 6006 8800 6000 0000 01
+
+Tıbbi Geçmiş:
+- Astım hastası
+- Günde 1 defa ventolin kullanıyor
+- 2020'de covid-19 geçirmiş
+- Panik atak tedavisi için xanax kullanmış
+
+Acil Durumda Aranacak Kişi:
+Ali Kaya (eşi) - Tel: 0544 123 45 67
+```
+
+## Test Metni 6 - Email ve Telefon Çeşitleri
+```
+İletişim listem:
+- Ahmet: ahmet@company.com.tr, 05551112233
+- Mehmet: mehmet.yilmaz@university.edu.tr, +90 555 222 33 44
+- Fatma: fatma.ozkan@hospital.gov.tr, 0555-333-44-55
+- Ali: ali123@yahoo.com, 0 555 444 55 66
+```
+
+## Test Metni 7 - Farklı TC ve Kredi Kartı Formatları
+```
+Müşteri Bilgileri:
+1. Ahmet Yılmaz - TC: 12345678901 - Kart: 4111 1111 1111 1111
+2. Fatma Demir - TC: 98765432109 - Kart: 4000-0000-0000-0002
+3. Mehmet Özkan - TC: 55073469324 - Kart: 378282246310005 (Amex)
+```
+
+## Test Metni 8 - Adres Detayları
+```
+Teslimat Adresleri:
+
+1. Ev Adresi:
+Çankaya Mahallesi
+İnönü Bulvarı No:234/5
+06100 Çankaya/Ankara
+Tel: 0312 555 66 77
+
+2. İş Adresi:
+Levent Mah. Büyükdere Cad.
+Spine Tower No:181 Kat:15
+34394 Şişli/İstanbul
+```
+
+## Test Metni 9 - Doğum Tarihi Formatları
+```
+Aile üyeleri:
+- Baba: Mustafa Yılmaz, 12.05.1960
+- Anne: Ayşe Yılmaz, 1965-08-20
+- Kardeş: Emre Yılmaz, 15/11/1992
+- Ben: 03.07.1988
+```
+
+## Test Metni 10 - Kapsamlı Hasta Dosyası
+```
+HASTA DOSYASI - GİZLİ
+
+Hasta: Dr. Selin Kaya
+TC Kimlik: 76558242278
+Doğum: 1975.12.25  
+Tel: 0216 444 55 66
+Email: selin.kaya@health.gov.tr
+
+Adres: Üsküdar Mah. Bağlarbaşı Cad. 89/12 Üsküdar/İstanbul
+
+Hastalık Geçmişi:
+- 2018: Hipertansiyon tanısı
+- 2020: Covid-19 (hafif)
+- 2022: Migren başlangıcı
+
+Kullandığı İlaçlar:
+- Sabah: Concor 2.5mg (hipertansiyon)
+- Akşam: Relpax 40mg (migren)
+- Gerektiğinde: Majezik (ağrı)
+
+Sigorta Bilgileri:
+SGK No: 12345678901
+Özel Sigorta: Allianz Sağlık
+Poliçe No: POL-2023-456789
+
+Ödeme Bilgileri:
+Kredi Kartı: 5105105105105100
+IBAN: TR320010009999901234567890
+
+Acil Durumda:
+Eşi Doç.Dr. Can Kaya: 0532 111 22 33
+Anne: Nermin Özcan: 0216 777 88 99
+```
+
+---
+
+## Geçerli Test Numaraları Açıklaması:
+
+### TC Kimlik Numaraları (Algoritmaya Uygun):
+- `11111111110` - Test amaçlı geçerli TC
+- `55073469324` - Matematiksel olarak geçerli
+- `76558242278` - Checksum algoritmasına uygun
+- `23456789012` - Geçerli TC formatı
+- `12345678901` - Doğru algoritma
+- `98765432109` - Geçerli checksum
+
+### Kredi Kartı Numaraları (Luhn Algoritmasına Uygun):
+- `4532015112830366` - Geçerli Visa
+- `5555555555554444` - Geçerli MasterCard  
+- `4111111111111111` - Test Visa kartı
+- `4000000000000002` - Test kartı
+- `378282246310005` - Geçerli American Express
+- `5105105105105100` - Geçerli MasterCard
+
+
